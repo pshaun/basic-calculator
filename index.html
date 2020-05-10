@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= 'stylesheet' href='style.css'>
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700&display=swap" rel="stylesheet">
+        <title>Basic Calculator</title>
+    </head>
+    <body>
+        <header>Basic Calculator</header>
+
+        <div class="calculator_container">
+            <div class="screen"> 
+                <h1 id="input">0</h1>
+                <h1 id="cursor">|</h1>
+            </div>
+            <div class="calc_buttons">
+                <div class="numbers_grid">
+                    <button class="num-7" value="7" onclick="inputExpression(this.value)">7</button>
+                    <button class="num-8" value="8" onclick="inputExpression(this.value)">8</button>
+                    <button class="num-9" value="9" onclick="inputExpression(this.value)">9</button>
+                    <button class="num-4" value="4" onclick="inputExpression(this.value)">4</button>
+                    <button class="num-5" value="5" onclick="inputExpression(this.value)">5</button>
+                    <button class="num-6" value="6" onclick="inputExpression(this.value)">6</button>
+                    <button class="num-1" value="1" onclick="inputExpression(this.value)">1</button>
+                    <button class="num-2" value="2" onclick="inputExpression(this.value)">2</button>
+                    <button class="num-3" value="3" onclick="inputExpression(this.value)">3</button>
+                    <button class="num-dot" value="." onclick="inputExpression(this.value)">.</button>
+                    <button class="num-0" value="0" onclick="inputExpression(this.value)">0</button>
+                    <button class="equals" value="=" onclick="inputExpression(this.value)">=</button>
+                    
+                </div>
+
+                <div class="operators_grid">
+                    <button class="op-clear" value="clear" onclick="inputExpression(this.value)">AC</button>
+                    <button class="op-multiply" value="*" onclick="inputExpression(this.value)">*</button>
+                    <button class="op-divide" value="/" onclick="inputExpression(this.value)">/</button>
+                    <button class="op-add" value="+" onclick="inputExpression(this.value)">+</button>
+                    <button class="op-subtract" value="-" onclick="inputExpression(this.value)">-</button>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>       
+    </body>
+
+    <footer>Pshaun</footer>
+
+</html>
